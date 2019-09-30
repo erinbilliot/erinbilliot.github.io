@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title> Erin's Archive </title>
+        <title>Erin's Archive</title>
         <style>
     body {
         background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgVFhUVFxgPGRYWFSMYIRAYFhwuIiAmHykkHDQsJCYxHB4fJzklJS43Ojo4Ix8zOj84NyotMzMBCgoKDQ0OGg8QFTclHR4uLjc3NzE3MDc3MSs3Ny0rNzc3LS4tLCs3LTc1Nzg3MCsxLS0rODQ3NzcrNTc4LS03N//AABEIASwAqAMBIgACEQEDEQH/xAAaAAEAAgMBAAAAAAAAAAAAAAAABAcDBQYC/8QANRABAAIBAwEFBgQEBwAAAAAAAAECAwQFESEGEjFBURMiUmFxgSORsvAUgsHRBxVCYnKhsf/EABkBAQEBAQEBAAAAAAAAAAAAAAABBQMEAv/EACIRAQACAgECBwAAAAAAAAAAAAABAwIEMREhBRMiMkFhwf/aAAwDAQACEQMRAD8AssBzbIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADR9ou02k2S2PT+znJmvHNcVPHj1tP8Apjnz+U8RPEufnt9qtHqqU3TaqxWev4WXvWrH0msRP5w47fNfny9pNx1cXmLRmyUifSuOZpEflX/uWuyZL5bzfJaZmfOUmWxr+HYZ1xllPK3N17X7botjxbnpsntfac1x0jpN7R4xPT3ePPmOn1mIV3re1e/azPOW25Wp6Vxe5Wv9Z/mmWjitYvN48f3/AGj8o9HpJl21/DsMOs2d5/He9iu2Osz7jj2zeMsXjJ0pk4iJi3w24jiYmPCfXp15WGoja+9/m239zx9th4+vtIXusSzd6nGq3pjxMACvGAAAAAAAAAAAAAApztttt9s7R6rmvuZZnUUn170+/H1i8z9pr6tDaeK2nnyldvaLZNNv23W0up6THvUvEdcVvKY/8mPOFQ7xtOv2TV/w+ux92eeaXiOa5OOvNeek/wDGev2SYbOltxNflT7o4+2uy4dfgwaXJqdHkp35iOb47VieY56TMRE9PR7b3ee1ms3XQajS6jDSvtJpfJaMmS3M0t3o7tbXmuP3ojw8ujL2b7Ia7e7VzZYtiw+PfmOLZI/2RP6p6enLlXOeUeuOkvvX2bK65y2e0/Hfln/w82bJuG80196/hYJ55+PLx0iPpz3p/lWuj7fotNt2jxaTRYorSscREfvrMz1mZ8Uh2ZF9025znIAOQAAAAAAAAAAAAAAj6/R4NfpMum1OKtq2jji9e9HPlPE/NIYNbn/hdHmzxXma1m0R8Ux4R956COM7D9icG06jVanWWpm4t7PHNqTM0nHaYtbraeJmenT4XdMGi086XSYsE35mI4m3x285+88z92cAAUAAAAAAAAAAAAAAAARN1ra235px15msRkiPimk97j78cJYI8470y465MduYmItEx5xPg9IO1fh0z6WPDFknHHyrMResR8oreK/ZOCAAUAAAAAAAAAAAAAAAAABF0dMldRrrXrxFskTX5xGOsfqiUoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/9k=);
@@ -61,42 +61,53 @@
         width: 275px;
     }
     .content {
-        flex: 1;
-        padding: 15px;
-    }
-    .interests header {
-        font-size: 1.25em;
-    }
+         flex: 1;
+                padding: 15px;
+            }
+    #portfolio {
+                list-style-type: none;
+                padding-left: 0;
+            }
+            
+            #portfolio li {
+                background: #fff;
+                padding: 10px;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+            
+            #portfolio li:hover {
+                background: #eee;
+            } 
+            
+            #portfolio a {
+                text-decoration: none;
+                color: #454545;
+            }
 </style>
     </head>
     
     <body>
         <div id="all-contents">
             <nav>
-                <header> Erin's Archive </header>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+            <header>Erin's Archive</header>
+            <ul>
+                <li><a href="index.html">Home</a>
+                </li>
+                <li><a href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+        <main>
+            <div class= "content">
+                <h1>Portfolio</h1>
+                <ul id="portfolio">
                 </ul>
-            </nav>
-            
-            <main>
-                <div class="sidebar">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL0jq-XWRrfAPg4jRSKKQE6CKZap7MHiIAHTe6DmJW1N7GPiuT:https://image.uniqlo.com//UQ/ST3/us/imagesother/home/L3/190603-l3-bt21.jpg">
-                </div>
-                <div class="content">
-                    <header> Erin Billiot </header>
-                    <p> Student at St.Amant High School </p>
-                <section class="interests">
-                    <header> Interests </header>
-                    <ul>
-                        <li> Music </li>
-                        <li> Nature </li>
-                        <li> Cats </li>
-                    </ul>
-                </section>
-                </div>
-            </main>
+            </div>
+        </main>
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script id="portfolioScript">$(document).ready(function() {$.getJSON('projects/projects.json').then(function(data) { data.projects.forEach(function(project){ $('#portfolio').append('<li><a href="projects/' + project.name + '/">' + project.title + ' : ' + project.description + '</a></li>'); }); }); });</script>
     </body>
 </html>
