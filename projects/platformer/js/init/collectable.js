@@ -35,8 +35,8 @@
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
         // example: 
-        collectable.create(type.max, 200, 170, 6, 0.7);
-        collectable.create(type.max, 750, 50, 6, 0.7);
+        collectable.create(type.steve, 200, 170, 6, 0.7);
+        collectable.create(type.grace, 750, 50, 6, 0.7);
         collectable.create(type.max, 810, 390, 6, 0.7);
         
         
